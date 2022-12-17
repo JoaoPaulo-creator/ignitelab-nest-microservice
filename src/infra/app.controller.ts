@@ -21,8 +21,8 @@ export class AppController {
         id: randomUUID(),
         content,
         category,
-        recipientId,
-      },
+        recipientId
+      }
     });
   }
 }
